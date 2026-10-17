@@ -19,9 +19,13 @@
                 }
          }
 </script>
+
     <h1>Lista de Usuarios</h1>
-    <a href="crear.php">Agregar Usuario</a>
-    <table border="1">
+    <span>
+        <a class="agregar" href="crear.php">Agregar Usuario</a>
+    </span>
+    <br> <br>
+    <table class="custom-table" border="1">
         <tr>
             <th>ID</th>
             <th>Nombre</th>

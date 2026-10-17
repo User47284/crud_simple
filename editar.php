@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Editar Usuario</title>
+    <link rel="stylesheet" href="tabla.css">
 </head>
 <body>
     <h1>Editar Usuario</h1>
@@ -50,6 +51,7 @@
         <input type="int" id="matricula" name="matricula" value="<?php echo $matricula; ?>" required><br><br>
         <input type="submit" value="Actualizar">
     </form>
-    <a href="index.php">Volver a la lista</a>
+    <br> <br>
+    <a class="agregar" href="index.php">Volver a la lista</a>
 </body>
 </html>
