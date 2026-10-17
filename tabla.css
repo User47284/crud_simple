@@ -102,3 +102,58 @@ nav a {
 nav a:hover {
   color: rgb(255, 85, 70);
 }
+.agregar {
+  display: inline-flex;
+  background-color: #5eff586b;
+  text-decoration: none;
+  padding: 8px 12px;
+  border-radius: 4px;
+  color: #000;
+}
+.table-container {
+    width: 100%;
+    overflow-x: auto;
+    margin: 20px 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+.custom-table {
+    width: 100%;
+    border-collapse: collapse; 
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    background-color: #ffffff;
+    text-align: left;
+}
+.custom-table th {
+    background-color:rgb(72, 163, 118);
+    color: #ffffff;
+    font-weight: bold;
+    padding: 12px 15px;
+    white-space: nowrap;
+}
+.custom-table td {
+    padding: 12px 15px;
+    border-bottom: 1px solid #e0e0e0;
+    color: #333333;
+}
+.custom-table tbody tr:nth-child(even) {
+    background-color: #f8f9fa;
+}
+
+.custom-table tbody tr:hover {
+    background-color: #f1f3f5;
+}
+.custom-table .btn-action {
+    padding: 5px 10px;
+    border-radius: 4px;
+    text-decoration: none;
+    font-size: 12px;
+    display: inline-block;
+}
+form{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 400px;
+}
